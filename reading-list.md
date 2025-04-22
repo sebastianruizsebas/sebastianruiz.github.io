@@ -1,13 +1,10 @@
 ---
 title: Reading List
-subtitle: a list of books I read
+subtitle: I like purpose-driven readings. Here are some things I read right now, along with some favorite books.
 layout: "page"
 icon: fa-book
 order: 3
 ---
-
-I like purpose-driven readings. Here are some things I read right now, along with some favorite books.
-
 Currently Reading / Own
 1. Kramer: *Case Studies in Neural Data Analysis*
 2. Peggy Series: *Computational Psychiatry: a Primer*
