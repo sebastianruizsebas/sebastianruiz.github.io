@@ -1,5 +1,5 @@
 ---
-title: First Post
+title: Purpose of my Website
 author: Sebas
 layout: post
 ---
