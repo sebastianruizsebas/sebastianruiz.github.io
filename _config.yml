@@ -58,7 +58,7 @@ github_url: "https://github.com/sebastianruizsebas"
 # dribbble_url:
 
 # Google Analytics Tracking ID goes here:
-google_analytics:
+google_analytics: "G-V29PTSF802"
 
 # The following settings are NECESSARY for the Prologue theme to run:
 remote_theme: chrisbobbe/jekyll-theme-prologue
