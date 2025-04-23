@@ -50,6 +50,8 @@ url: "https://sebastianruizsebas.github.io" # the base hostname & protocol for y
 # instagram_url:
 linkedin_url: "https://www.linkedin.com/in/sebastiansebasruiz/"
 bluesky_url: "https://bsky.app/profile/lovecannons.bsky.social"
+github_url: "https://github.com/sebastianruizsebas"
+icon_style: "fab"
 # stackoverflow_url:
 # pinterest_url:
 # slack_url:
