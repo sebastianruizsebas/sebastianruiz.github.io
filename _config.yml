@@ -35,6 +35,7 @@ subtitle: Personal Website
 description: >- # this means to ignore newlines until "baseurl:"
   The goal of this website is to document my journey (academic, professional), and to express myself.
 author: Sebastian Ruiz
+icon-style: solid, brands
 email: sr23bt@fsu.edu
 avatar: assets/images/profile.jpg
 
