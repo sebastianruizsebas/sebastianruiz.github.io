@@ -1,0 +1,20 @@
+---
+layout: blog
+title: "Tag: {{ page.tag }}"
+permalink: /tags/{{ page.tag | slugify }}/
+tag: 
+---
+
+{%- assign tag_posts = site.posts | where_exp: "post", "post.tags contains page.tag" -%}
+{%- if tag_posts.size > 0 -%}
+  <h2>Posts tagged with "{{ page.tag }}"</h2>
+  <ul>
+    {%- for post in tag_posts -%}
+      <li>
+        <a href="{{ post.url | relative_url }}">{{ post.title }}</a> <small>({{ post.date | date_to_string }})</small>
+      </li>
+    {%- endfor -%}
+  </ul>
+{%- else -%}
+  <p>No posts found for this tag.</p>
+{%- endif -%}
