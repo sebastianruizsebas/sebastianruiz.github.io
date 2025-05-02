@@ -3,7 +3,9 @@ title: Project Development Through CompNeuroSociety
 author: Sebastian Ruiz
 layout: post
 published: true
-tags: [CompNeuroSociety, projects, neuroscience]
+tags: 
+    - CompNeuroSociety
+    - neuroscience
 ---
 
 I met with Upi and Andre initially in an effort to develop projects for CompNeuroSociety student members. Andre took the first step of speaking with Morgan, the NeuroTechX student club advisor, who then gave Andre a list of potential projects for us to decide on which to pursue. At first, we had about 7 potential projects, and we collectively picked two that we liked after Andre had given us the rundown of those projects. The two projects that we liked were 'Brain Age Prediction' and 'The Virtual Brain'.
