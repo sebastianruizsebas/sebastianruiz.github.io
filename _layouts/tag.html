@@ -6,7 +6,7 @@ hide: true
 tag: 
 ---
 
-{%- assign tag_posts = site.posts | where_exp: "post", "post.tags contains page.tag" -%}
+{%- assign tag_posts = site.posts | where_exp: "post", "post.tags contains page.tags" -%}
 {%- if tag_posts.size > 0 -%}
   <h2>Posts tagged with "{{ page.tag }}"</h2>
   <ul>
