@@ -22,7 +22,7 @@ layout: default
 		  {% if _post.tags %}
 		    Tags: 
 		    {% for tag in _post.tags %}
-		      <a href="{{ '/tags/' | append: tag | slugify | append: '/' | relative_url }}">{{ tag }}</a>{% if forloop.last == false %}, {% endif %}
+		      <a href="{{ '/tags/' | append: (tag | slugify) | append: '/' | relative_url }}">{{ tag }}</a>{% if forloop.last == false %}, {% endif %}
 		    {% endfor %}
 		  {% endif %}
 		</p>
