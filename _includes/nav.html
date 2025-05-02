@@ -7,6 +7,7 @@
 <nav id="nav">
   <ul>
     {%- assign _pages = site.html_pages | where_exp: "page", "page.hide != true" -%}
+    {%- assign _pages = _pages | reject: "layout", "tag" -%}
     {%- unless _pages == null -%}
       {%- assign _pages = _pages | sort: 'order' -%}
       {%- for _page in _pages -%}
