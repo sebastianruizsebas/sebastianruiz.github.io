@@ -34,7 +34,8 @@ def write_tag_page(tag):
         f.write(f"""---
 layout: {LAYOUT}
 tag: {tag}
-permalink: /tags/{slug}/
+permalink: /tags-{slug}/
+hide: true
 ---
 """)
 
@@ -43,7 +44,7 @@ def main():
     tags = get_all_tags()
     for tag in tags:
         write_tag_page(tag)
-    print(f"Generated {len(tags)} tag pages in '{TAGS_DIR}/'.")
+    print(f"Generated {len(tags)} tag pages in '{TAGS_DIR}-'.")
 
 if __name__ == '__main__':
     main()

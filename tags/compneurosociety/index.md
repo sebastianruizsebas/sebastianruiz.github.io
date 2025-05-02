@@ -1,5 +1,6 @@
 ---
 layout: tag
 tag: CompNeuroSociety
-permalink: /tags/compneurosociety/
+permalink: /tags-compneurosociety/
+hide: true
 ---

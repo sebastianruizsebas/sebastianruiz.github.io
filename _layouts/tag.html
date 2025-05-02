@@ -3,7 +3,6 @@ layout: blog
 title: "Tag: {{ page.tag }}"
 permalink: /tags/{{ (page.tag | slugify) }}/
 hide: true
-tag: 
 ---
 
 {%- assign tag_posts = site.posts | where_exp: "post", "post.tags contains page.tags" -%}
