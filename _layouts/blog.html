@@ -18,6 +18,14 @@ layout: default
 			{{- _post.date | date_to_long_string -}}
 		{%- endcapture -%}
 		{%- capture _excerpt -%}<p>{{- _post.excerpt | strip_html | truncatewords: 100 -}}</p>{%- endcapture -%}
+		<p>
+		  {% if _post.tags %}
+		    Tags: 
+		    {% for tag in _post.tags %}
+		      <a href="{{ '/tags/' | append: tag | slugify | append: '/' | relative_url }}">{{ tag }}</a>{% if forloop.last == false %}, {% endif %}
+		    {% endfor %}
+		  {% endif %}
+		</p>
 		{%- capture _link -%}<a href="{{- _post.url | absolute_url -}}">read more</a>{%- endcapture -%}
 		{%- assign _content = _excerpt | append: _link -%}
 		{%- include section.html title=_title subtitle=_subtitle content=_content -%}

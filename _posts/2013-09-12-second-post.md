@@ -1,73 +1,17 @@
 ---
-title: Second Post
-author: Chris
+title: Project Development Through CompNeuroSociety
+author: Sebastian Ruiz
 layout: post
-published: false
+published: true
+tags: [CompNeuroSociety, projects, neuroscience]
 ---
 
-Lorem ipsum dolor sit amet, harum malorum nominavi mea et. Atqui maluisset duo cu, summo dignissim voluptatum sit ut. Ad quo quidam delicatissimi. Cum nihil noster patrioque id. Per at maiorum definitiones. Cu vix sint aliquip. No duo alia sale persecuti.
+I met with Upi and Andre initially in an effort to develop projects for CompNeuroSociety student members. Andre took the first step of speaking with Morgan, the NeuroTechX student club advisor, who then gave Andre a list of potential projects for us to decide on which to pursue. At first, we had about 7 potential projects, and we collectively picked two that we liked after Andre had given us the rundown of those projects. The two projects that we liked were 'Brain Age Prediction' and 'The Virtual Brain'.
 
-Pri id consul meliore luptatum, vix iudico impetus salutatus eu, duo at causae admodum complectitur. Qui eu salutandi dignissim, ea dictas audire commodo eos, vim cu autem dicam. Novum placerat moderatius sea ex, debet labitur reprehendunt mei ad. Tempor theophrastus et est, id tollit ponderum usu, at vis consul detraxit. Sit ut adhuc aeque.
+Before that initial meeting, I met virtually with my previous graduate student mentor, Jack (who is now, if not soon, Dr. Burgess), who gave me the advice to get everyone together to settle on a few areas of neuroscience, and to then from there decide on what to model (for context I told him that we wanted projects related to neural computation/cognitive modeling). 
 
-Ut eum labore antiopam. Cum eu modus rationibus. Illud deleniti cum cu. At vix illum vitae tation, solet oporteat complectitur at vel. Vim te simul eleifend, et per insolens conceptam, ad sint posidonium est. Ad vocent propriae principes duo.
+Following the initial meeting with Andre and Upi, I met with Dr. Varela, who is our volunteer faculty advisor for CompNeuroSociety. Similarly to Jack, she advised me to get everyone together to settle on a few topics in neuroscience, and to then from there decide what to model. I told her about our interest in The Virtual Brain platform, which she said she has heard about before.
 
-<span class="image right"><img src="{{ 'assets/images/pic03.jpg' | relative_url }}" alt="" /></span>
+Right now (5/1/25) we are in the process of replicating some tutorials from The Virtual Brain, to get a hold on the basics to see if we want to go the simpler route (for showcasing a project to students) and replicate a previous study that used The Virtual Brain, or to model a completely new disease, the middle ground of slightly extending a previous study that used The Virtual Brain.
 
-Audire periculis id vis, cum eu sonet option patrioque, his dicam sanctus imperdiet ad. Ad sonet dolorum est. Eu dolore adipisci volutpat mei, eu nec nisl molestiae. Usu ad veri omnesque pertinacia, duis scripserit ad nam. Quo id eligendi legendos.
-
-Eos cu partiendo vituperatoribus. Mel id duis delenit atomorum, mei tamquam nostrum ne, id eum hinc decore mediocrem. Mei feugiat habemus tincidunt ut, atqui detraxit ex usu. Vix ad commodo eripuit alienum, an has idque delicatissimi. Dolores reformidans mel ne, duis numquam disputando quo te.
-
-Eum eu tritani accusata qualisque, pro ei purto vocent. Vim in insolens hendrerit similique. Nobis munere antiopam ei vix. Cum no labore partiendo conceptam. Sea id vide viderer mandamus, magna posidonium nam at. Ad populo persius duo, vel audire detracto scribentur ut.
-
-Vim te fastidii sententiae. Vix ad facilis gloriatur, mei an diceret iracundia vituperatoribus. Iudico consetetur dissentiunt pri ut. Consul dictas pri ne. Nec an alia volumus scaevola, eos movet deleniti argumentum te. Latine abhorreant his ad, ut modus in the following table:
-
-<div class="table-wrapper">
-  <table>
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-        <th>Price</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>Item 1</td>
-        <td>Ante turpis integer aliquet porttitor.</td>
-        <td>29.99</td>
-      </tr>
-      <tr>
-        <td>Item 2</td>
-        <td>Vis ac commodo adipiscing arcu aliquet.</td>
-        <td>19.99</td>
-      </tr>
-      <tr>
-        <td>Item 3</td>
-        <td> Morbi faucibus arcu accumsan lorem.</td>
-        <td>29.99</td>
-      </tr>
-      <tr>
-        <td>Item 4</td>
-        <td>Vitae integer tempus condimentum.</td>
-        <td>19.99</td>
-      </tr>
-      <tr>
-        <td>Item 5</td>
-        <td>Ante turpis integer aliquet porttitor.</td>
-        <td>29.99</td>
-      </tr>
-    </tbody>
-    <tfoot>
-      <tr>
-        <td colspan="2"></td>
-        <td>100.00</td>
-      </tr>
-    </tfoot>
-  </table>
-</div>
-
-Amet illum at sea, est autem fabulas eu, quod nonumes lobortis no sed. Has ei fugit adipisci reprimique. Enim tamquam ornatus pri ei. Alii harum invidunt nec ex, pri vidit latine ne. Has vocent nominati rationibus ad, ex partiendo prodesset moderatius has, vim quod paulo ad. Ex nec etiam electram, pri illud appetere eu.
-
-An nobis instructior eos, eam libris aperiam corrumpit ex. Case omnesque eu per. Et vix iisque tritani. Autem posidonium eu vis, sit et mutat brute. Usu ne postulant intellegat omittantur, mazim saperet adolescens mel at.
-
-Nam at velit percipit detraxit, quas modus mea ut. Ius an natum doctus vivendum. Quo at debet vidisse viderer, mollis eripuit ex nec. Sed ut choro saepe, sale augue sea et. His nemore dolorum mnesarchum at, ius an adipisci aliquando, laoreet placerat ea ius.
+I will keep updating the progress of the project developments over the course of the Summer. I am planning on checking in with Upi and Andre this upcoming Monday.
