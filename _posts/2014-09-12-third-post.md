@@ -1,18 +1,25 @@
 ---
-title: Third Post
-author: Chris
+title: Hawkins Notes for Summer at Brown with Dr. Sherif
+author: Sebas
 layout: post
 icon: fa-lightbulb
 icon-style: regular
 published: false
 ---
-See the icon?
 
-Lorem ipsum dolor sit amet, harum malorum nominavi mea et. Atqui maluisset duo cu, summo dignissim voluptatum sit ut. Ad quo quidam delicatissimi. Cum nihil noster patrioque id. Per at maiorum definitiones. Cu vix sint aliquip. No duo alia sale persecuti.
 
-<span class="image left"><img src="{{ 'assets/images/pic03.jpg' | relative_url }}" alt="" /></span>
+I emailed Dr. Sherif to ask for some papers to read before I join his lab this upcoming summer. Attached below is the first paper I have started reading.
 
-Pri id consul meliore luptatum, vix iudico impetus salutatus eu, duo at causae admodum complectitur. Qui eu salutandi dignissim, ea dictas audire commodo eos, vim cu autem dicam. Novum placerat moderatius sea ex, debet labitur reprehendunt mei ad. Tempor theophrastus et est, id tollit ponderum usu, at vis consul detraxit. Sit ut adhuc aeque.
+[Download PDF]( {{ 'assets/files/Hawkins2016Why.pdf' | relative_url }} )
+
+So far, I am understanding that the paper proposes that synapses on dendrites on neurons can act as pattern detectors. As the paper states, all artificial neural networks (ANNs) lack active dendrites, and it seems that previous to this paper, all ANNs did not have dendrites represented in their code. A quick google search shows that some papers claim having dendrites represented in ANNs can help in computer vision tasks by reducing the number of parameters. The paper at time of publishing (2016) stated that the functional and theoretical benefits of having active dendrites in ANNs was unclear, but now it seems like there might be. This is exciting stuff!
+
+The paper proposes that dendrites with synapses act as pattern detectors this way:
+1. Proximal synapses (ones that are close to the cell body) have a large effect on the cell body, and therefore define the receptive field
+2. Basal synapses **learn** transitions in sequences (I will have to look into this further). Basal dendrites only slightly depolarize the cell (the neuron), and they propose that this slight depolarization is important and acts as a source of prediction for the neuron.
+3. They propose that Apical synapses act as another form of prediction similarly to Basal synapses (but top-down?)
+
+
 
 Ut eum labore antiopam. Cum eu modus rationibus. Illud deleniti cum cu. At vix illum vitae tation, solet oporteat complectitur at vel. Vim te simul eleifend, et per insolens conceptam, ad sint posidonium est. Ad vocent propriae principes duo.
 
