@@ -15,3 +15,7 @@ Following the initial meeting with Andre and Upi, I met with Dr. Varela, who is 
 Right now (5/1/25) we are in the process of replicating some tutorials from The Virtual Brain, to get a hold on the basics to see if we want to go the simpler route (for showcasing a project to students) and replicate a previous study that used The Virtual Brain, or to model a completely new disease, the middle ground of slightly extending a previous study that used The Virtual Brain.
 
 I will keep updating the progress of the project developments over the course of the Summer. I am planning on checking in with Upi and Andre this upcoming Monday.
+
+
+
+
