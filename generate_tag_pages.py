@@ -39,6 +39,25 @@ hide: true
 ---
 """)
 
+def generate_tag_page(tag, posts):
+    # Filter posts to only include those that have this specific tag
+    tagged_posts = [post for post in posts if tag in post.get('tags', [])]
+    
+    # Create tag page content
+    content = f"""---
+layout: tag
+tag: {tag}
+permalink: /tags-{tag.lower()}/
+hide: true
+---"""
+
+    # Create directory if it doesn't exist
+    os.makedirs(f'tags/{tag.lower()}', exist_ok=True)
+    
+    # Write the tag page
+    with open(f'tags/{tag.lower()}/index.md', 'w') as f:
+        f.write(content)
+
 def main():
     ensure_tags_dir()
     tags = get_all_tags()
