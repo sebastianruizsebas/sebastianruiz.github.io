@@ -17,6 +17,8 @@ Some interesting questions that I will investigate after I get through some of t
     - If so, using vision as an example, what is the threshold for considering a feature which would then cause a change in a bit?
     - Surely, determining the threshold for a change in a bit would require some careful consideration as there are some things that some humans would notice, while others wouldn't, and then the divide between conscious and sub-conscious is even further.
 
+However I do think Mohamed has a point, which is to get through the tutorials in order to generate data. I left the code off last time having passed pytest, and having tutorial 1 in progress.
+
 
 
 
