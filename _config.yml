@@ -60,6 +60,8 @@ google_analytics: "G-V29PTSF802"
 
 # The following settings are NECESSARY for the Prologue theme to run:
 remote_theme: chrisbobbe/jekyll-theme-prologue
-collections: [sections]
-#add tags to the collection
-# This is a list of collections that will be used to create the sections of your site.
+collections:
+  sections:
+  tags:
+    output: true
+    permalink: /tags/:path/

@@ -3,7 +3,24 @@ layout: default
 ---
 {%- assign filtered_posts = site.posts | where_exp: "post", "post.tags contains page.tag" -%}
 
-<!-- Post list for specific tag -->
-{%- for post in filtered_posts -%}
-  <!-- ... rest of your tag layout code ... -->
-{%- endfor -%}
+<!-- Main -->
+<div id="main">
+  <article class="shade-two">
+    <div class="container">
+      <header>
+        <h2>Posts tagged with "{{ page.tag }}"</h2>
+      </header>
+      
+      {%- for post in filtered_posts -%}
+        <div class="post">
+          <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+          <p class="post-meta">
+            {%- if post.author -%}{{ post.author }}, {%- endif -%}
+            {{ post.date | date_to_long_string }}
+          </p>
+          {{ post.excerpt }}
+        </div>
+      {%- endfor -%}
+    </div>
+  </article>
+</div>
